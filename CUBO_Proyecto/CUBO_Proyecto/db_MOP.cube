@@ -1,0 +1,185 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d9b805e2-ba29-454c-a5d4-0a3da19ccd0d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>db_MOP</ID>
+  <Name>db_MOP</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7123" scrolltop="-3302" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="18711" y="11070" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="tbl_Esquelas" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4424" height="4466" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00004811000072110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_tbl_Esquelas" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-7123</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3302</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="366e78bc-4a75-4b4b-9651-6c16d9f179bc">
+      <ID>Tbl Esquelas</ID>
+      <Name>Tbl Esquelas</Name>
+      <DimensionID>Tbl Esquelas</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a93df6a6-fca7-4c78-a736-b98a7bf58704">
+          <AttributeID>Id Esquela</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="06eb313e-d86c-4114-8bf3-404f7abb19b4">
+          <AttributeID>Ves Departamento</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="628e399c-9b04-4181-abdd-01e2db3e678a">
+          <AttributeID>Ves Estado</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="028660e4-c258-4988-a89e-2dc230963e33">
+          <AttributeID>Ves Estado Descripcion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f1cb395b-2867-47ed-a6ce-c42b46475b12">
+          <AttributeID>Ves Tipo Falta</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="98e38502-eedf-439c-b069-5d313046fdc9">
+      <ID>Tbl Esquelas</ID>
+      <Name>Tbl Esquelas</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="cfbf9229-aad3-4cf9-8e6d-03f4bdb5610d">
+          <ID>Ves Valor</ID>
+          <Name>Ves Valor</Name>
+          <Source dwd:design-time-name="27ec3136-4332-4bd7-9f77-0a65080f6823">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="bb7c3a86-d6f6-44ab-b843-0d5360ec3077">
+              <TableID>dbo_tbl_Esquelas</TableID>
+              <ColumnID>Ves_Valor</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f8f69329-3fd8-4cfc-a736-1d2516002661">
+          <ID>Ves Interes</ID>
+          <Name>Ves Interes</Name>
+          <Source dwd:design-time-name="68f7d467-de32-46d5-a17f-1542886590e4">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cc5bc9da-6f26-4981-823d-98cf2dd6b574">
+              <TableID>dbo_tbl_Esquelas</TableID>
+              <ColumnID>Ves_Interes</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="57585c8b-f6ec-4c00-aaf6-09f66c1c3600">
+          <ID>Recuento Tbl Esquelas</ID>
+          <Name>Recuento Tbl Esquelas</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="0facec7d-675c-4261-8d89-db6c56942602">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="e41db8bb-08cf-4bbd-954f-07e94eba8425">
+              <TableID>dbo_tbl_Esquelas</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="563b7d22-5ada-42f2-821b-273dd414135d">
+          <CubeDimensionID>Tbl Esquelas</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="10783b6a-f828-40f7-93a9-378de5d46052">
+              <AttributeID>Id Esquela</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="43999651-d958-4c4d-800d-9e0953659b73">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="722c6b84-de88-4005-9d37-ac946685f318">
+                    <TableID>dbo_tbl_Esquelas</TableID>
+                    <ColumnID>Id_Esquela</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="6fab7ea6-8ad5-4b70-8376-36389875295e">
+    <DataSourceViewID>db_MOP</DataSourceViewID>
+  </Source>
+  <Kpis>
+    <Kpi dwd:design-time-name="ada8a58a-5d7f-43b6-aff5-ce7e88f1a0a0">
+      <ID>KPI</ID>
+      <Name>KPI - Total en esquelas</Name>
+      <AssociatedMeasureGroupID>Tbl Esquelas</AssociatedMeasureGroupID>
+      <Value>[Measures].[Ves Valor]</Value>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Gauge - Ascending</StatusGraphic>
+    </Kpi>
+    <Kpi dwd:design-time-name="a2a2f3fc-bea5-47d2-b068-e8914d8fe00b">
+      <ID>KPI 1</ID>
+      <Name>KPI - Total en Interes</Name>
+      <AssociatedMeasureGroupID>Tbl Esquelas</AssociatedMeasureGroupID>
+      <Value>[Measures].[Ves Interes]</Value>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Gauge - Ascending</StatusGraphic>
+    </Kpi>
+  </Kpis>
+</Cube>
